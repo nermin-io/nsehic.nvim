@@ -22,8 +22,8 @@ return require('packer').startup(function(use)
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
-  use({ "ellisonleao/gruvbox.nvim", as = 'gruvbox' })
-  vim.cmd('colorscheme gruvbox')
+  use({ "Mofiqul/vscode.nvim", as = "vscode" })
+  vim.cmd('colorscheme vscode')
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('nvim-treesitter/playground')
@@ -60,7 +60,7 @@ return require('packer').startup(function(use)
   use("nvim-tree/nvim-tree.lua")
   use("kyazdani42/nvim-web-devicons")
   use("nvim-lualine/lualine.nvim")
-
+  use('m4xshen/autoclose.nvim')
   if packer_bootstrap then
     require('packer').sync()
   end

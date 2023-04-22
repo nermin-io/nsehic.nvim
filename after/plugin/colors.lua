@@ -1,5 +1,5 @@
 function SetColor(color)
-  color = color or "gruvbox"
+  color = color or "vscode"
   vim.cmd.colorscheme(color)
   vim.o.background = "dark"
 end
