@@ -22,8 +22,7 @@ return require('packer').startup(function(use)
     requires = { { 'nvim-lua/plenary.nvim' } }
   }
 
-  use({ "Mofiqul/vscode.nvim", as = "vscode" })
-  vim.cmd('colorscheme vscode')
+  use({ "ellisonleao/gruvbox.nvim", as = "gruvbox" })
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('nvim-treesitter/playground')

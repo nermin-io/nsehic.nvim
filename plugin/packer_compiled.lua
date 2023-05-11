@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/nerminsehic/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  gruvbox = {
+    loaded = true,
+    path = "/Users/nerminsehic/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/nerminsehic/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -188,11 +193,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/nerminsehic/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  vscode = {
-    loaded = true,
-    path = "/Users/nerminsehic/.local/share/nvim/site/pack/packer/start/vscode",
-    url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
 
